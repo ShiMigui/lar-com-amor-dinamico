@@ -1,26 +1,26 @@
-# Lar com Amor — Dinâmico
+# Lar com Amor — Dynamic
 
-Versão dinâmica do projeto de **TCC da Etec Aristóteles Ferreira**: plataforma para dar um lar com amor a todos os animais.
+Dynamic version of the **final course project (TCC) at Etec Aristóteles Ferreira**: a platform to give every animal a loving home.
 
-Aplicação em **ASP.NET Web Forms (C#)** com banco de dados, em substituição à versão estática em HTML.
+Application built with **ASP.NET Web Forms (C#)** and a database, replacing the static HTML version.
 
-## Funcionalidades
+## Features
 
-- Cadastro e login de usuários
-- Páginas de **animais**, **eventos** e **organizações**
-- Perfil do usuário e formulários de adoção
-- Painel (*dashboard*) para administração
+- User registration and login
+- **Animals**, **events**, and **organizations** pages
+- User profile and adoption forms
+- Admin dashboard
 
-## Estrutura
+## Structure
 
 ```
 lar_com_amor/
-├── *.aspx + code-behind     # páginas (animais, eventos, organizações, perfil...)
-├── classes/                 # classes de apoio
-├── bd/                      # banco de dados
-└── script/, style/, img/    # recursos estáticos
+├── *.aspx + code-behind     # pages (animals, events, organizations, profile...)
+├── classes/                 # support classes
+├── bd/                      # database
+└── script/, style/, img/    # static assets
 ```
 
-## Executando
+## Running
 
-Abra `lar_com_amor.sln` no Visual Studio e configure a conexão em `Web.config`.
+Open `lar_com_amor.sln` in Visual Studio and configure the connection in `Web.config`.
